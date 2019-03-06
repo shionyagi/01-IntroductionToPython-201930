@@ -1,3 +1,4 @@
+import math
 
 answer = 2 ** 5
 print(answer * 100)
@@ -28,7 +29,8 @@ print(answer * 100)
 #     - Prints the square root of that computed value.
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
-
+x = 77 + math.cos(2.75)
+print(math.sqrt(x))
 ###############################################################################
 # TODO: 3.
 #   Immediately below this _TODO_, write code that computes and prints:
@@ -36,7 +38,8 @@ print(answer * 100)
 #   Use as few or as many intermediate names as you feel appropriate.
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
-
+x = (41 * 88) + (4 * math.cos(2))
+print(math.sqrt(x))
 ###############################################################################
 # TODO: 4.
 #   Immediately below this _TODO_,
@@ -46,7 +49,8 @@ print(answer * 100)
 #   Print both of the expressions that you write.
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
-
+print(math.sqrt(2))
+print(2**0.5)
 
 ###############################################################################
 # TODO: 5.

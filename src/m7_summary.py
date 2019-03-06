@@ -2,7 +2,7 @@
 An exercise that summarizes what you have learned in this Session.
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
-         Aaron Wilkin, their colleagues, and PUT_YOUR_NAME_HERE.
+         Aaron Wilkin, their colleagues, and Shion.
 """
 ########################################################################
 # TODO: 1.
@@ -42,4 +42,18 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 #   As always, test by running the module.
 #   As always, COMMIT-and-PUSH when you are done with this module.
 #
-########################################################################
+##############################################
+import rosegraphics as rg
+Shion = rg.SimpleTurtle('turtle')
+Shion.pen = rg.Pen('blue')
+
+Shion.forward(200)
+Shion.pen_up()
+Shion.go_to(rg.Point(100, -40))
+Shion.pen_down()
+
+Shion.pen = rg.Pen('green', 10)
+Shion.backward(150)
+
+
+

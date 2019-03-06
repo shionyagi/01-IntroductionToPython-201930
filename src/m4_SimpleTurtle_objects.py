@@ -10,7 +10,7 @@ Also:
   -- ASSIGNING a VALUE to a NAME (VARIABLE).
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
-         Aaron Wilkin, their colleagues, and PUT_YOUR_NAME_HERE.
+         Aaron Wilkin, their colleagues, and Shion.
 """
 ###############################################################################
 #
@@ -126,7 +126,15 @@ natasha.go_to(rg.Point(-100, 200))
 #   As always, test by running the module.
 #
 ###############################################################################
+Shion = rg.SimpleTurtle()
+Shion.pen = rg.Pen('green', 10)
+Shion.speed = 1
 
+Shion.forward(100)
+Shion.right(90)
+Shion.forward(100)
+Shion.left(90)
+Shion.forward(100)
 ###############################################################################
 #
 # TODO: 5.
